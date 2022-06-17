@@ -1,0 +1,363 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &724320323333057330
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 724320323333057329}
+  - component: {fileID: 724320323333057328}
+  m_Layer: 0
+  m_Name: MotorbikeSFX
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &724320323333057329
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 724320323333057330}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 724320324536311624}
+  - {fileID: 724320323890236824}
+  - {fileID: 8929940796006725703}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &724320323333057328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 724320323333057330}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c62a0300cf4e6804f9c09d1c1fb4882a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SuspensionEmitter: {fileID: 0}
+  WheelsEffectEmitterRef: {fileID: 724320324536311638}
+  MinTimeBetweenCollisions: 0.1
+  DefaultMagnitudeDivider: 20
+  DefaultCollisionEventRef:
+    Guid:
+      Data1: 1766344859
+      Data2: 1217433269
+      Data3: 323210923
+      Data4: 1695574687
+    Path: event:/Crashes/MetalCollision_Medium
+  CollisionEvents:
+  - EventRef:
+      Guid:
+        Data1: 1518296630
+        Data2: 1271684405
+        Data3: 69313929
+        Data4: 2081743151
+      Path: event:/Crashes/MetalCollision_Easy
+    CollisionMask:
+      serializedVersion: 2
+      m_Bits: 42176
+    MinMagnitudeCollision: 0
+    MaxMagnitudeCollision: 10
+  - EventRef:
+      Guid:
+        Data1: 1766344859
+        Data2: 1217433269
+        Data3: 323210923
+        Data4: 1695574687
+      Path: event:/Crashes/MetalCollision_Medium
+    CollisionMask:
+      serializedVersion: 2
+      m_Bits: 42176
+    MinMagnitudeCollision: 10
+    MaxMagnitudeCollision: 20
+  - EventRef:
+      Guid:
+        Data1: 1975033971
+        Data2: 1191208295
+        Data3: -1692801131
+        Data4: 1731824289
+      Path: event:/Crashes/MetalCollision_Strong
+    CollisionMask:
+      serializedVersion: 2
+      m_Bits: 42176
+    MinMagnitudeCollision: 20
+    MaxMagnitudeCollision: Infinity
+  - EventRef:
+      Guid:
+        Data1: 971433557
+        Data2: 1228584680
+        Data3: 74512561
+        Data4: -1348898161
+      Path: event:/Crashes/StoneCollision_Easy
+    CollisionMask:
+      serializedVersion: 2
+      m_Bits: 6144
+    MinMagnitudeCollision: 0
+    MaxMagnitudeCollision: 10
+  - EventRef:
+      Guid:
+        Data1: -1804951031
+        Data2: 1281371316
+        Data3: -1092115287
+        Data4: 365908558
+      Path: event:/Crashes/StoneCollision_Strong
+    CollisionMask:
+      serializedVersion: 2
+      m_Bits: 6144
+    MinMagnitudeCollision: 10
+    MaxMagnitudeCollision: Infinity
+  - EventRef:
+      Guid:
+        Data1: 337202075
+        Data2: 1078588531
+        Data3: -394792827
+        Data4: 1608541917
+      Path: event:/Crashes/PlasticCollision_Easy
+    CollisionMask:
+      serializedVersion: 2
+      m_Bits: 131072
+    MinMagnitudeCollision: 0
+    MaxMagnitudeCollision: 5
+  - EventRef:
+      Guid:
+        Data1: 337202075
+        Data2: 1078588531
+        Data3: -394792827
+        Data4: 1608541917
+      Path: event:/Crashes/PlasticCollision_Easy
+    CollisionMask:
+      serializedVersion: 2
+      m_Bits: 131072
+    MinMagnitudeCollision: 5
+    MaxMagnitudeCollision: 15
+  FrictionEffectEmotterRef: {fileID: 944996857997631920}
+  PlayFrictionTime: 0.5
+  DefaultFrictionEventRef:
+    Guid:
+      Data1: -1752347281
+      Data2: 1221639892
+      Data3: -1237399903
+      Data4: -2112245869
+    Path: event:/Crashes/GroundFriction
+  FrictionEvents:
+  - EventRef:
+      Guid:
+        Data1: -1752347281
+        Data2: 1221639892
+        Data3: -1237399903
+        Data4: -2112245869
+      Path: event:/Crashes/GroundFriction
+    CollisionMask:
+      serializedVersion: 2
+      m_Bits: 133120
+    MinMagnitudeCollision: 0
+    MaxMagnitudeCollision: Infinity
+  - EventRef:
+      Guid:
+        Data1: -450230801
+        Data2: 1212034320
+        Data3: 1163301042
+        Data4: -614068841
+      Path: event:/Crashes/MetalFriction
+    CollisionMask:
+      serializedVersion: 2
+      m_Bits: 46272
+    MinMagnitudeCollision: 0
+    MaxMagnitudeCollision: Infinity
+  EngineEmitter: {fileID: 724320323890236903}
+  MinTimeBetweenBlowOffSounds: 1
+--- !u!1 &724320323890236825
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 724320323890236824}
+  - component: {fileID: 724320323890236903}
+  m_Layer: 0
+  m_Name: EngineEmitter
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &724320323890236824
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 724320323890236825}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 724320323333057329}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &724320323890236903
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 724320323890236825}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -526567727
+      Data2: 1261732902
+      Data3: 1799635075
+      Data4: 135471682
+    Path: event:/CarSounds/Motorbike_Engine_01
+  Event: 
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!1 &724320324536311625
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 724320324536311624}
+  - component: {fileID: 724320324536311638}
+  m_Layer: 0
+  m_Name: WheelsGroundEmitter
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &724320324536311624
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 724320324536311625}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 724320323333057329}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &724320324536311638
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 724320324536311625}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 445491909
+      Data2: 1265340600
+      Data3: -177681520
+      Data4: 1682067430
+    Path: event:/Wheels/WheelsGround
+  Event: 
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!1 &5522059386940069921
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8929940796006725703}
+  - component: {fileID: 944996857997631920}
+  m_Layer: 0
+  m_Name: FrictionEmitter
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8929940796006725703
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5522059386940069921}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 724320323333057329}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &944996857997631920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5522059386940069921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -450230801
+      Data2: 1212034320
+      Data3: 1163301042
+      Data4: -614068841
+    Path: event:/Crashes/MetalFriction
+  Event: 
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20

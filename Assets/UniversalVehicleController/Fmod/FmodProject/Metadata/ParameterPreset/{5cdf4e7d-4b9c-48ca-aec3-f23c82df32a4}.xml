@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="ParameterPreset" id="{5cdf4e7d-4b9c-48ca-aec3-f23c82df32a4}">
+		<property name="name">
+			<value>SuspensionForce</value>
+		</property>
+		<relationship name="folder">
+			<destination>{dfe8f591-1089-434d-b494-86dd26e26c81}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{e602effa-2713-4fb8-94b6-1b2c1ed91fa3}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{e602effa-2713-4fb8-94b6-1b2c1ed91fa3}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="seekSpeedDescending">
+			<value>0.59999996423721313</value>
+		</property>
+		<property name="seekSpeedAsymmetric">
+			<value>true</value>
+		</property>
+	</object>
+</objects>

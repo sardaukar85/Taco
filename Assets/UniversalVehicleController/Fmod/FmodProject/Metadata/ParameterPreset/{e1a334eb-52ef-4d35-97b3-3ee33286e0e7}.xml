@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="ParameterPreset" id="{e1a334eb-52ef-4d35-97b3-3ee33286e0e7}">
+		<property name="name">
+			<value>SuspensionPos</value>
+		</property>
+		<relationship name="folder">
+			<destination>{dfe8f591-1089-434d-b494-86dd26e26c81}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{d6ed4f16-39aa-4c7e-9770-00a7c7d314fb}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{d6ed4f16-39aa-4c7e-9770-00a7c7d314fb}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="ParameterPreset" id="{1668577a-7ccc-496a-9c12-e0511b456f7e}">
+		<property name="name">
+			<value>Slip</value>
+		</property>
+		<relationship name="folder">
+			<destination>{dfe8f591-1089-434d-b494-86dd26e26c81}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{e6f9c1b9-92a6-4951-a3f3-034d52355c8e}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{e6f9c1b9-92a6-4951-a3f3-034d52355c8e}">
+		<property name="maximum">
+			<value>2</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="seekSpeed">
+			<value>1.8000000715255737</value>
+		</property>
+	</object>
+</objects>

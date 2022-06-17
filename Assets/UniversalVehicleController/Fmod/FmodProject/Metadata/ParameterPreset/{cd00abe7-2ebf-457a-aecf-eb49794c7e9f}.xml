@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="ParameterPreset" id="{cd00abe7-2ebf-457a-aecf-eb49794c7e9f}">
+		<property name="name">
+			<value>BackFire</value>
+		</property>
+		<relationship name="folder">
+			<destination>{dfe8f591-1089-434d-b494-86dd26e26c81}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{44059c41-7195-4981-a934-5963a002fe05}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{44059c41-7195-4981-a934-5963a002fe05}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

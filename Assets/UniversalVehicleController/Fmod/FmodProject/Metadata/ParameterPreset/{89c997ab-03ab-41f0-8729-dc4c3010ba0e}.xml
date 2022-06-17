@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="ParameterPreset" id="{89c997ab-03ab-41f0-8729-dc4c3010ba0e}">
+		<property name="name">
+			<value>TurboBlowOff</value>
+		</property>
+		<relationship name="folder">
+			<destination>{dfe8f591-1089-434d-b494-86dd26e26c81}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{65aa58b0-cade-47f4-a15e-9e5482ad3ede}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{65aa58b0-cade-47f4-a15e-9e5482ad3ede}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

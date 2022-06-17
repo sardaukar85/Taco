@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{022b35af-eb97-4fd3-96e0-4cdeaae8abd4}">
+		<property name="assetPath">
+			<value>Crashes/Crash_Medium.ogg</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>1.3512471655328797</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{1c3c594e-206b-4287-91d4-05c896db3559}</destination>
+		</relationship>
+	</object>
+</objects>

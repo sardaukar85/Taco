@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="ParameterPreset" id="{af0302f6-6eca-44f8-bee4-7f35f72463e4}">
+		<property name="name">
+			<value>Boost</value>
+		</property>
+		<relationship name="folder">
+			<destination>{dfe8f591-1089-434d-b494-86dd26e26c81}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{b844b9b9-3de5-43cb-9459-ae2fd80cc2cd}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{b844b9b9-3de5-43cb-9459-ae2fd80cc2cd}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="seekSpeed">
+			<value>3.2000000476837158</value>
+		</property>
+	</object>
+</objects>
